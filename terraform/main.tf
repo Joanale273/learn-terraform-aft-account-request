@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "caasasharedservices@canvia.com"
     AccountName               = "CAASA-Shared-Services"
-    ManagedOrganizationalUnit = "Management"
+    ManagedOrganizationalUnit = "Custom (ou-9jw1-27qyhyai)"
     SSOUserEmail              = "caasasharedservices@canvia.com"
     SSOUserFirstName          = "Shared Services"
     SSOUserLastName           = "CAASA"
