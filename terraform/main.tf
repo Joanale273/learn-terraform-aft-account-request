@@ -2,16 +2,16 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "<ACCOUNT EMAIL>"
-    AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT"
-    SSOUserEmail              = "<SSO EMAIL>"
-    SSOUserFirstName          = "Sandbox"
-    SSOUserLastName           = "AFT"
+    AccountEmail              = "caasasharedservices@canvia.com"
+    AccountName               = "CAASA-Shared-Services"
+    ManagedOrganizationalUnit = "Management"
+    SSOUserEmail              = "caasasharedservices@canvia.com"
+    SSOUserFirstName          = "Shared Services"
+    SSOUserLastName           = "CAASA"
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "ENV" = "PRD"
   }
 
   change_management_parameters = {
