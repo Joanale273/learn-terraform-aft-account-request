@@ -2,11 +2,11 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "caasasharedservices@canvia.com"
-    AccountName               = "CAASA-Shared-Services"
-    ManagedOrganizationalUnit = "Custom (ou-9jw1-27qyhyai)"
-    SSOUserEmail              = "caasasharedservices@canvia.com"
-    SSOUserFirstName          = "Shared Services"
+    AccountEmail              = "caasasapdev@canvia.com"
+    AccountName               = "CAASA-SAP-DEV"
+    ManagedOrganizationalUnit = "Custom (ou-9jw1-59qao8t1)"
+    SSOUserEmail              = "caasasapdev@canvia.com"
+    SSOUserFirstName          = "SAP DEV"
     SSOUserLastName           = "CAASA"
   }
 
