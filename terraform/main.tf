@@ -3,7 +3,7 @@ module "sandbox" {
 
   control_tower_parameters = {
     AccountEmail              = "caasasapqas@canvia.com"
-    AccountName               = "CAASA Servicios Dedicados QAS"
+    AccountName               = "CAASA SAP QAS"
     ManagedOrganizationalUnit = "Custom (ou-9jw1-hckjalpl)"
     SSOUserEmail              = "caasasapqas@canvia.com"
     SSOUserFirstName          = "SAP QA"
