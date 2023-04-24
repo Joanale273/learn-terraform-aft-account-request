@@ -2,21 +2,21 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "caasadedicadodev@canvia.com"
-    AccountName               = "CAASA-Servicios-Dedicados-DEV"
-    ManagedOrganizationalUnit = "Custom (ou-9jw1-59qao8t1)"
-    SSOUserEmail              = "caasadedicadodev@canvia.com"
-    SSOUserFirstName          = "Servicios Dedicados"
-    SSOUserLastName           = "CAASA DEV"
+    AccountEmail              = "caasasapqas@canvia.com"
+    AccountName               = "CAASA Servicios Dedicados QAS"
+    ManagedOrganizationalUnit = "Custom (ou-9jw1-hckjalpl)"
+    SSOUserEmail              = "caasasapqas@canvia.com"
+    SSOUserFirstName          = "SAP QA"
+    SSOUserLastName           = "CAASA"
   }
 
   account_tags = {
-    "ENV" = "DEV"
+    "ENV" = "QA"
   }
 
   change_management_parameters = {
     change_requested_by = "HashiCorp"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_reason       = "Despliegue autimatizado por Terraform"
   }
 
   custom_fields = {
