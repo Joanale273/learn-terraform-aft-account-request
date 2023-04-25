@@ -2,16 +2,16 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "caasadedicadoqas@canvia.com"
-    AccountName               = "CAASA Servicios Dedicados QA"
-    ManagedOrganizationalUnit = "Custom (ou-9jw1-hckjalpl)"
-    SSOUserEmail              = "caasadedicadoqas@canvia.com"
-    SSOUserFirstName          = "Servicios Dedicados"
-    SSOUserLastName           = "CAASA QA"
+    AccountEmail              = "caasaappsdev@canvia.com"
+    AccountName               = "CAASA Apps DEV"
+    ManagedOrganizationalUnit = "Custom (ou-9jw1-59qao8t1)"
+    SSOUserEmail              = "caasaappsdev@canvia.com"
+    SSOUserFirstName          = "APPS DEV"
+    SSOUserLastName           = "CAASA"
   }
 
   account_tags = {
-    "ENV" = "QA"
+    "ENV" = "DEV"
   }
 
   change_management_parameters = {
